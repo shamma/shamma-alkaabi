@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036E87B32A46F563001C5DCC /* shamma_alkaabiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E87B22A46F563001C5DCC /* shamma_alkaabiApp.swift */; };
+		036E87B52A46F563001C5DCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E87B42A46F563001C5DCC /* ContentView.swift */; };
+		036E87B72A46F564001C5DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036E87B62A46F564001C5DCC /* Assets.xcassets */; };
+		036E87BA2A46F564001C5DCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036E87B92A46F564001C5DCC /* Preview Assets.xcassets */; };
+		036E87BC2A46F564001C5DCC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E87BB2A46F564001C5DCC /* Persistence.swift */; };
+		036E87BF2A46F564001C5DCC /* shamma_alkaabi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 036E87BD2A46F564001C5DCC /* shamma_alkaabi.xcdatamodeld */; };
+		036E87C92A46F564001C5DCC /* shamma_alkaabiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E87C82A46F564001C5DCC /* shamma_alkaabiTests.swift */; };
+		036E87D32A46F564001C5DCC /* shamma_alkaabiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E87D22A46F564001C5DCC /* shamma_alkaabiUITests.swift */; };
+		036E87D52A46F564001C5DCC /* shamma_alkaabiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036E87D42A46F564001C5DCC /* shamma_alkaabiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036E87C52A46F564001C5DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036E87A72A46F563001C5DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036E87AE2A46F563001C5DCC;
+			remoteInfo = "shamma alkaabi";
+		};
+		036E87CF2A46F564001C5DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036E87A72A46F563001C5DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036E87AE2A46F563001C5DCC;
+			remoteInfo = "shamma alkaabi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036E87AF2A46F563001C5DCC /* shamma alkaabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shamma alkaabi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036E87B22A46F563001C5DCC /* shamma_alkaabiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shamma_alkaabiApp.swift; sourceTree = "<group>"; };
+		036E87B42A46F563001C5DCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		036E87B62A46F564001C5DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036E87B92A46F564001C5DCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		036E87BB2A46F564001C5DCC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		036E87BE2A46F564001C5DCC /* shamma_alkaabi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shamma_alkaabi.xcdatamodel; sourceTree = "<group>"; };
+		036E87C42A46F564001C5DCC /* shamma alkaabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shamma alkaabiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036E87C82A46F564001C5DCC /* shamma_alkaabiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shamma_alkaabiTests.swift; sourceTree = "<group>"; };
+		036E87CE2A46F564001C5DCC /* shamma alkaabiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shamma alkaabiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		036E87D22A46F564001C5DCC /* shamma_alkaabiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shamma_alkaabiUITests.swift; sourceTree = "<group>"; };
+		036E87D42A46F564001C5DCC /* shamma_alkaabiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shamma_alkaabiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036E87AC2A46F563001C5DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E87C12A46F564001C5DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E87CB2A46F564001C5DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036E87A62A46F563001C5DCC = {
+			isa = PBXGroup;
+			children = (
+				036E87B12A46F563001C5DCC /* shamma alkaabi */,
+				036E87C72A46F564001C5DCC /* shamma alkaabiTests */,
+				036E87D12A46F564001C5DCC /* shamma alkaabiUITests */,
+				036E87B02A46F563001C5DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036E87B02A46F563001C5DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036E87AF2A46F563001C5DCC /* shamma alkaabi.app */,
+				036E87C42A46F564001C5DCC /* shamma alkaabiTests.xctest */,
+				036E87CE2A46F564001C5DCC /* shamma alkaabiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036E87B12A46F563001C5DCC /* shamma alkaabi */ = {
+			isa = PBXGroup;
+			children = (
+				036E87B22A46F563001C5DCC /* shamma_alkaabiApp.swift */,
+				036E87B42A46F563001C5DCC /* ContentView.swift */,
+				036E87B62A46F564001C5DCC /* Assets.xcassets */,
+				036E87BB2A46F564001C5DCC /* Persistence.swift */,
+				036E87BD2A46F564001C5DCC /* shamma_alkaabi.xcdatamodeld */,
+				036E87B82A46F564001C5DCC /* Preview Content */,
+			);
+			path = "shamma alkaabi";
+			sourceTree = "<group>";
+		};
+		036E87B82A46F564001C5DCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				036E87B92A46F564001C5DCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		036E87C72A46F564001C5DCC /* shamma alkaabiTests */ = {
+			isa = PBXGroup;
+			children = (
+				036E87C82A46F564001C5DCC /* shamma_alkaabiTests.swift */,
+			);
+			path = "shamma alkaabiTests";
+			sourceTree = "<group>";
+		};
+		036E87D12A46F564001C5DCC /* shamma alkaabiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036E87D22A46F564001C5DCC /* shamma_alkaabiUITests.swift */,
+				036E87D42A46F564001C5DCC /* shamma_alkaabiUITestsLaunchTests.swift */,
+			);
+			path = "shamma alkaabiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036E87AE2A46F563001C5DCC /* shamma alkaabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036E87D82A46F564001C5DCC /* Build configuration list for PBXNativeTarget "shamma alkaabi" */;
+			buildPhases = (
+				036E87AB2A46F563001C5DCC /* Sources */,
+				036E87AC2A46F563001C5DCC /* Frameworks */,
+				036E87AD2A46F563001C5DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shamma alkaabi";
+			productName = "shamma alkaabi";
+			productReference = 036E87AF2A46F563001C5DCC /* shamma alkaabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036E87C32A46F564001C5DCC /* shamma alkaabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036E87DB2A46F564001C5DCC /* Build configuration list for PBXNativeTarget "shamma alkaabiTests" */;
+			buildPhases = (
+				036E87C02A46F564001C5DCC /* Sources */,
+				036E87C12A46F564001C5DCC /* Frameworks */,
+				036E87C22A46F564001C5DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036E87C62A46F564001C5DCC /* PBXTargetDependency */,
+			);
+			name = "shamma alkaabiTests";
+			productName = "shamma alkaabiTests";
+			productReference = 036E87C42A46F564001C5DCC /* shamma alkaabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036E87CD2A46F564001C5DCC /* shamma alkaabiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036E87DE2A46F564001C5DCC /* Build configuration list for PBXNativeTarget "shamma alkaabiUITests" */;
+			buildPhases = (
+				036E87CA2A46F564001C5DCC /* Sources */,
+				036E87CB2A46F564001C5DCC /* Frameworks */,
+				036E87CC2A46F564001C5DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036E87D02A46F564001C5DCC /* PBXTargetDependency */,
+			);
+			name = "shamma alkaabiUITests";
+			productName = "shamma alkaabiUITests";
+			productReference = 036E87CE2A46F564001C5DCC /* shamma alkaabiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036E87A72A46F563001C5DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					036E87AE2A46F563001C5DCC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					036E87C32A46F564001C5DCC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 036E87AE2A46F563001C5DCC;
+					};
+					036E87CD2A46F564001C5DCC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 036E87AE2A46F563001C5DCC;
+					};
+				};
+			};
+			buildConfigurationList = 036E87AA2A46F563001C5DCC /* Build configuration list for PBXProject "shamma alkaabi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036E87A62A46F563001C5DCC;
+			productRefGroup = 036E87B02A46F563001C5DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036E87AE2A46F563001C5DCC /* shamma alkaabi */,
+				036E87C32A46F564001C5DCC /* shamma alkaabiTests */,
+				036E87CD2A46F564001C5DCC /* shamma alkaabiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036E87AD2A46F563001C5DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E87BA2A46F564001C5DCC /* Preview Assets.xcassets in Resources */,
+				036E87B72A46F564001C5DCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E87C22A46F564001C5DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E87CC2A46F564001C5DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036E87AB2A46F563001C5DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E87BC2A46F564001C5DCC /* Persistence.swift in Sources */,
+				036E87B52A46F563001C5DCC /* ContentView.swift in Sources */,
+				036E87BF2A46F564001C5DCC /* shamma_alkaabi.xcdatamodeld in Sources */,
+				036E87B32A46F563001C5DCC /* shamma_alkaabiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E87C02A46F564001C5DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E87C92A46F564001C5DCC /* shamma_alkaabiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036E87CA2A46F564001C5DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036E87D32A46F564001C5DCC /* shamma_alkaabiUITests.swift in Sources */,
+				036E87D52A46F564001C5DCC /* shamma_alkaabiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036E87C62A46F564001C5DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036E87AE2A46F563001C5DCC /* shamma alkaabi */;
+			targetProxy = 036E87C52A46F564001C5DCC /* PBXContainerItemProxy */;
+		};
+		036E87D02A46F564001C5DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036E87AE2A46F563001C5DCC /* shamma alkaabi */;
+			targetProxy = 036E87CF2A46F564001C5DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		036E87D62A46F564001C5DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036E87D72A46F564001C5DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036E87D92A46F564001C5DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shamma alkaabi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shamma.counter.shamma-alkaabi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036E87DA2A46F564001C5DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shamma alkaabi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shamma.counter.shamma-alkaabi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		036E87DC2A46F564001C5DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shamma.counter.shamma-alkaabiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shamma alkaabi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shamma alkaabi";
+			};
+			name = Debug;
+		};
+		036E87DD2A46F564001C5DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shamma.counter.shamma-alkaabiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shamma alkaabi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shamma alkaabi";
+			};
+			name = Release;
+		};
+		036E87DF2A46F564001C5DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shamma.counter.shamma-alkaabiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "shamma alkaabi";
+			};
+			name = Debug;
+		};
+		036E87E02A46F564001C5DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shamma.counter.shamma-alkaabiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "shamma alkaabi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036E87AA2A46F563001C5DCC /* Build configuration list for PBXProject "shamma alkaabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E87D62A46F564001C5DCC /* Debug */,
+				036E87D72A46F564001C5DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036E87D82A46F564001C5DCC /* Build configuration list for PBXNativeTarget "shamma alkaabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E87D92A46F564001C5DCC /* Debug */,
+				036E87DA2A46F564001C5DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036E87DB2A46F564001C5DCC /* Build configuration list for PBXNativeTarget "shamma alkaabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E87DC2A46F564001C5DCC /* Debug */,
+				036E87DD2A46F564001C5DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036E87DE2A46F564001C5DCC /* Build configuration list for PBXNativeTarget "shamma alkaabiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036E87DF2A46F564001C5DCC /* Debug */,
+				036E87E02A46F564001C5DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		036E87BD2A46F564001C5DCC /* shamma_alkaabi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				036E87BE2A46F564001C5DCC /* shamma_alkaabi.xcdatamodel */,
+			);
+			currentVersion = 036E87BE2A46F564001C5DCC /* shamma_alkaabi.xcdatamodel */;
+			path = shamma_alkaabi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 036E87A72A46F563001C5DCC /* Project object */;
+}
